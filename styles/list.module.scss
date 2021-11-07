@@ -1,0 +1,9 @@
+.list {
+  display: flex;
+  flex-flow: column;
+  align-items: left;
+  padding-bottom: 4px;
+  &__item + &__item {
+    margin-top: 10px;
+  }
+}
